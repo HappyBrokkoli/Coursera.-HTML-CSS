@@ -1,0 +1,19 @@
+
+<meta charset="utf-8">
+<script>
+
+(function (window) {
+  var johnGreeter = {};
+  johnGreeter.name = "John";
+  var greeting = "Hi ";
+  johnGreeter.sayHi = function () {
+    console.log(greeting + johnGreeter.name);
+  }
+
+  window.johnGreeter = johnGreeter;
+
+})(window);
+
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+</script>
